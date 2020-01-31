@@ -1,0 +1,109 @@
+body form{
+    text-align: left;
+
+}
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+  }
+  body{
+    background-color: #d35400;
+}
+
+.box {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    background-color: grey; 
+    display: block;
+    border-radius: 40px;   
+}
+
+  .search{
+    border: none;
+    outline: none;
+    padding: 0;
+    width: 0px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    transition: 450ms;
+    float:left;
+}
+
+.search-btn {
+    height: 30px;
+    width : 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    float:right;
+    display: flex;
+    justify-content: right;
+    align-items: top;
+}
+
+.search-box:hover >  input{
+    width: 240px;
+}
+
+  .navbar{
+    text-align: right; 
+    list-style: none;
+    padding: 40px 35px;
+
+}
+.navbar li{
+    display:inline;
+}
+.navbar a{
+    color:white;
+    margin-right: 40px;
+}
+/*#fix-me{
+    position: fixed;
+    background-color: black;
+    color: #fff;
+    top:50%;*/
+
+h1{
+    text-align: left;
+    font-size: 0em; 
+}
+.show{
+    background: linear-gradient(to bottom right, 
+    hsla(168, 71%, 31%, 0.8), 
+    hsla(145, 64%, 48%, 0.8)), 
+    /*url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQktzUTpZbrei-u45PAHApPX5B_23v1bd9BgjnDVuu7pCDK4Smn);*/
+    /*clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);*/
+    height 300px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+ }
+
+.show p{
+    font-size: 30px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -20%;
+    font-weight: 600;
+    letter-spacing: 12px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+

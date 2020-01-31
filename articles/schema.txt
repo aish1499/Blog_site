@@ -1,0 +1,6 @@
+title:chars(250)
+writer:chars(100)
+content: text
+create_on: dtaetime
+genre: chars(20) -> choices
+title_image: image
